@@ -23,10 +23,19 @@ In short, we proposed:
   - Soft EM-Patroller that maximizes the average entropy rate of individual policies. (Unpredictability)
   
 ## Example
-In this section, we provide a simple yet illustrative example to show that reformulating multi-robot uniform patrolling problem as multiple travelling salesmen problem (mTSP) that searches Hamiltonian paths (espeically cycles) does not guarantee the existence of optimal solutions as well as the superiority of its suboptimal solutions over stochastic strategies, no matter within global or local scopes. Consider an environment with following topology:
+In this section, we provide a simple yet illustrative example to show that reformulating multi-robot uniform patrolling problem as multiple travelling salesmen problem (mTSP) that searches deterministic Hamiltonian paths (espeically cycles) does not guarantee the existence of optimal solutions as well as the superiority of its suboptimal solutions over stochastic strategies, no matter within global or local scopes. Consider an environment with following topology:
 
-![This is an image](/doc/figure/example.png)
+<p align="center">
+  <img width="400" height="300" src="/doc/figure/Example.png">
+</p>
 
+This is the HOUSE environment after pruning node 3. The topology consists two loops containing 5 and 4 loops respectively and node 3 serves as a pivot node. Global cyclic solution will make node 3 a hotspot thus break uniformity, and local solutions (after territory partitioning) does not guarantee the uniformity and depends on the number of robots. In Comparison, our EM-Patroller solves this problem with a Markov chain-based point of view and can approach best uniformity under any given topologies.
+
+## Framework
+
+<p align="center">
+  <img width="400" height="300" src="/doc/figure/Framework.png">
+</p>
 
 
   
