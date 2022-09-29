@@ -25,5 +25,8 @@ In short, we proposed:
 ## Example
 In this section, we provide a simple yet illustrative example to show that reformulating multi-robot uniform patrolling problem as multiple travelling salesmen problem (mTSP) that searches Hamiltonian paths (espeically cycles) does not guarantee the existence of optimal solutions as well as the superiority of its suboptimal solutions over stochastic strategies, no matter within global or local scopes. Consider an environment with following topology:
 
+![This is an image](/doc/figure/example.png)
+
+
 
   
