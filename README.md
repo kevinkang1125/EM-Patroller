@@ -18,9 +18,9 @@
 In short, we proposed:
 * An algorithm that produces stochastic MuRP strategies aiming at approximating uniform coverage by entropy maximization (EM-Patroller), which gives consideration to both computational complexity and performance guarantee.
 * Three variants of EM-Patroller, which are:
-  - Robost EM-Patroller that also maximizes the average entropy of coverage of individuals; (Accounts for Robustness)
-  - Variational EM-Patroller that approximates arbitrary distributions with KLD minimization; (Accounts for Flexibility)
-  - Soft EM-Patroller that maximizes the average entropy rate of individual policies. (Accounts for Unpredictability)
+  - Robost EM-Patroller that also maximizes the average entropy of coverage of individuals; (Robustness)
+  - Variational EM-Patroller that approximates arbitrary distributions with KLD minimization; (Flexibility)
+  - Soft EM-Patroller that maximizes the average entropy rate of individual policies. (Unpredictability)
   
 ## Example
 In this section, we provide a simple yet illustrative example to show that reformulating multi-robot uniform patrolling problem as multiple travelling salesmen problem (mTSP) that searches Hamiltonian paths (espeically cycles) does not guarantee the existence of optimal solutions as well as the superiority of its suboptimal solutions over stochastic strategies, no matter within global or local scopes. Consider an environment with following topology:
