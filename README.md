@@ -34,7 +34,7 @@ This is the HOUSE environment after pruning node 3. The topology consists two lo
 ## Framework
 
 <p align="center">
-  <img width="400" height="300" src="/doc/figure/Framework.png">
+  <src="/doc/figure/Framework.png">
 </p>
 
 
