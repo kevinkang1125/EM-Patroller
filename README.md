@@ -14,7 +14,9 @@
 ## Description
 * We integrate our simulation toolbox into a Python package called `emp`. 
 * `opt.py` realizes the centralized optimizer for given environment and MRS.
-* `env.py`, `robot.py` and `policy.py` implement entities that are involved in optimization and execution process.
+* `env.py` constructs environments with NetworkX. Predefined environments include HOUSE, OFFICE and MUSEUM.
+* `robot.py` defines the structure and actions of individuals. Robots are fully decoupled from policies.
+* `policy.py` implement parameterized policies, which are MLPs in our case.
 * `main.py` claims legal arguments of command line input and the procedure of our algorithm.
 
 ## Usage
