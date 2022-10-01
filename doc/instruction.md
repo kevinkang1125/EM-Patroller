@@ -15,7 +15,12 @@ In short, we proposed:
   - Robost EM-Patroller that also maximizes the average entropy of coverage of individuals; (Robustness)
   - Variational EM-Patroller that approximates arbitrary distributions with KLD minimization; (Flexibility)
   - Soft EM-Patroller that maximizes the average entropy rate of individual policies. (Unpredictability)
-  
+
+## Contribution
+* we propose EM-Patroller, which serves as a polynomial complexity algorithm with the per-iteration performance improvement guarantee.
+* EM-Patroller has the flexibility of catering to miscellaneous user-defined target joint steady state distribution instead of confining itself to joint steady state entropy maximization.
+* EM-Patroller exhibits great robustness performance against individual robot failures when we incorporate the individual steady state distribution entropy maximization into the optimization objective.
+
 ## Example
 In this section, we provide a simple yet illustrative example to show that reformulating multi-robot uniform patrolling problem as multiple travelling salesmen problem (mTSP) that searches deterministic Hamiltonian paths (espeically cycles) does not guarantee the existence of optimal solutions as well as the superiority of its suboptimal solutions over stochastic strategies, no matter within global or local scopes. Consider an environment with following topology:
 
