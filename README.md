@@ -1,8 +1,7 @@
 # Entropy Maximized Multi-Robot Patrolling<br/>with Steady State Distribution Approximation
 ## Introduction
-* This is the code repository for the submitted paper "Entropy Maximized Multi-Robot Patrolling with Steady State Distribution Approximation".
-* This is a joint program among A*STAR, MIT and NUS. (© 2022 A\*STAR. All rights reserved.)
-* The paper was submitted to IEEE ICRA 2023. 
+* This is the code repository for the paper "Entropy Maximized Multi-Robot Patrolling with Steady State Distribution Approximation" that was submitted to IEEE ICRA 2023. 
+* This is a joint research program among A*STAR, MIT and NUS. (© 2022 A\*STAR. All rights reserved.)
 
 ## Dependencies
 * Python 3.8
