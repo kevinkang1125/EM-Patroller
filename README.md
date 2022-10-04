@@ -16,7 +16,7 @@
 * `opt.py` realizes the centralized optimizer for given environment and MRS.
 * `env.py` constructs environments. Predefined topological graphs include HOUSE, OFFICE and MUSEUM.
 * `robot.py` defines the structure and actions of individuals. Robots are fully decoupled from policies.
-* `policy.py` implement parameterized policies, which are MLPs in our case.
+* `policy.py` implements parameterized policies, which are MLP in our case.
 * `main.py` claims legal arguments of command line input and the procedure of our algorithm.
 
 ## Usage
