@@ -32,8 +32,7 @@ This is the HOUSE environment with slight modification. The topology consists tw
 
 ## Framework
 <p align="center">
-  <img width="952" height="350" src="/doc/figure/Framework.png">
+  <img width="952" height="350" src="/doc/figure/Framework.jpg">
 </p>
 
-## Video
-https://user-images.githubusercontent.com/59157711/193407538-9a98b2cf-8ef5-463b-a5b6-3221c59530be.mp4
+
